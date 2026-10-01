@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>TikTok Clon - Buscar y Tendencias</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+
+  <div class="app-container">
+
+    
+    <main class="main-content">
+      
+      <header class="search-header">
+        <div class="search-input-box">
+          <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+          <input type="text" id="mainSearchInput" class="search-input" placeholder="Buscar usuarios, videos o sonidos..." />
+        </div>
+        <button class="search-scan-btn" title="Escanear código QR">
+          <svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zm10 0h6v6h-6zM4 14h6v6H4zm10 0h2v2h-2zm4 0h2v2h-2zm-4 4h2v2h-2zm4 0h2v2h-2z"/></svg>
+        </button>
+      </header>
+
+      <div class="search-page">
+
+        
+        <div class="search-categories">
+          <button class="category-chip active">Para ti</button>
+          <button class="category-chip">Tendencias</button>
+          <button class="category-chip">Música</button>
+          <button class="category-chip">Gaming</button>
+          <button class="category-chip">Comedia</button>
+          <button class="category-chip">Belleza</button>
+          <button class="category-chip">Comida</button>
+        </div>
+
+        
+
+
+        
+        <div class="trending-section">
+          <div class="trending-header">
+            <div class="trending-tag-info">
+              <div class="tag-icon-circle">#</div>
+              <div class="tag-titles">
+                <h4>Gaming</h4>
+                <span>Tendencia en videojuegos</span>
+              </div>
+            </div>
+            <div class="trending-views-badge">1.4B vistas</div>
+          </div>
+
+          <div class="trending-thumbnails-row">
+            <div class="thumb-card">
+              <img class="thumb-img" src="assets/images/img_usr_1.jpg" alt="Video">
+              <div class="thumb-views">
+                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> 2.1M
+              </div>
+            </div>
+            <div class="thumb-card">
+              <img class="thumb-img" src="assets/images/img_usr_2.jpg" alt="Video">
+              <div class="thumb-views">
+                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> 890K
+              </div>
+            </div>
+            <div class="thumb-card">
+              <img class="thumb-img" src="assets/images/img_usr_3.jpg" alt="Video">
+              <div class="thumb-views">
+                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> 4.5M
+              </div>
+            </div>
+            <div class="thumb-card">
+              <img class="thumb-img" src="assets/images/img_usr_4.jpg" alt="Video">
+              <div class="thumb-views">
+                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> 1.1M
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="trending-section">
+          <div class="trending-header">
+            <div class="trending-tag-info">
+              <div class="tag-icon-circle">#</div>
+              <div class="tag-titles">
+                <h4>Humor</h4>
+                <span>Comedia y risas</span>
+              </div>
+            </div>
+            <div class="trending-views-badge">850M vistas</div>
+          </div>
+
+          <div class="trending-thumbnails-row">
+            <div class="thumb-card">
+              <img class="thumb-img" src="assets/images/img_usr_5.jpg" alt="Video">
+              <div class="thumb-views">
+                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> 720K
+              </div>
+            </div>
+            <div class="thumb-card">
+              <img class="thumb-img" src="assets/images/img_usr_6.jpg" alt="Video">
+              <div class="thumb-views">
+                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> 3.2M
+              </div>
+            </div>
+            <div class="thumb-card">
+              <img class="thumb-img" src="assets/images/img_usr_7.jpg" alt="Video">
+              <div class="thumb-views">
+                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> 1.8M
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <h3 class="explore-grid-header">Quizás te guste</h3>
+        <div class="explore-grid">
+          <div class="explore-card">
+            <div class="explore-media">
+              <img src="assets/images/img_usr_8.jpg" alt="Video sugerido">
+              <div class="explore-likes-count">
+                <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                128.4K
+              </div>
+            </div>
+            <div class="explore-info">
+              <p class="explore-desc">Alolan starters</p>
+              <div class="explore-author">
+                <img class="explore-author-img" src="assets/images/perfil_1.jpg" alt="Autor">
+                <span class="explore-author-name">@sergio_07</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="explore-card">
+            <div class="explore-media">
+              <img src="assets/images/img_usr_9.jpg" alt="Video sugerido">
+              <div class="explore-likes-count">
+                <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                94.1K
+              </div>
+            </div>
+            <div class="explore-info">
+              <p class="explore-desc">Jeff is love</p>
+              <div class="explore-author">
+                <img class="explore-author-img" src="assets/images/perfil_2.jpg" alt="Autor">
+                <span class="explore-author-name">@ramses_</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    
+    <nav class="bottom-nav">
+      
+      <div class="sidebar-logo">
+        <svg class="tiktok-icon-logo" viewBox="0 0 24 24">
+          <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.5 6.3 6.3 0 0 0 1.86-4.49V8.84a8.16 8.16 0 0 0 4.91 1.62v-3.77z"/>
+        </svg>
+        <span class="tiktok-text-logo">TikTok</span>
+      </div>
+
+      <a href="index.html" class="nav-link">
+        <div class="nav-icon">
+          <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+        </div>
+        <span class="nav-label">Inicio</span>
+      </a>
+
+      
+      <a href="search.html" class="nav-link active">
+        <div class="nav-icon">
+          <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        </div>
+        <span class="nav-label">Buscar</span>
+      </a>
+
+      <div class="nav-create-btn" title="Crear video">
+        <div class="btn-bg"></div>
+        <div class="btn-inner">
+          <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+        </div>
+      </div>
+
+      <a href="messages.html" class="nav-link">
+        <div class="nav-icon">
+          <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg>
+        </div>
+        <span class="nav-badge">4</span>
+        <span class="nav-label">Bandeja</span>
+      </a>
+
+      <a href="profile.html" class="nav-link">
+        <div class="nav-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+        </div>
+        <span class="nav-label">Perfil</span>
+      </a>
+    </nav>
+
+  </div>
+
+  <script src="js/search.js"></script>
+</body>
+</html>
